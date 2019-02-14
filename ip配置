@@ -1,0 +1,16 @@
+TYPE=Ethernet  
+DEVICE=eth0  			#网络接口名称
+BOOTPROTO=none  		#系统启动地址协议：none(无)bootp  dhcp、static(静态)
+ONBOOT=yes  			#是否自动启动该接口 yes、no
+IPADDR=10.0.1.27  		#ip地址
+NETMASK=255.255.255.0  		#子网掩码
+GATEWAY=10.0.1.1  		#网关
+BROADCAST=10.10.1.255  		#广播地址
+HWADDR=00:0C:29:13:5D:74  	#MAC地址
+PEERDNS=yes  			#是否指定DNS，若使用DHCP则默认yes
+DNS1=10.0.1.41  		#DNS
+USERCTL=no  			#用户权限设置，yes：非root用户允许控制该网络接口
+NM_CONTROLLED=no  		#是否由Network Manager控制（建议no）
+IPV6INIT=yes  
+IPV6ADDR=FD55:faaf:e1ab:1B0D:10:14:24:106/64  
+
