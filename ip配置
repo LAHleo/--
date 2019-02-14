@@ -14,7 +14,7 @@ NM_CONTROLLED=no  		#是否由Network Manager控制（建议no）
 IPV6INIT=yes  
 IPV6ADDR=FD55:faaf:e1ab:1B0D:10:14:24:106/64  
 
-标准：
+标准：(修改后生效，ifdown eth0  && ifup eth0)
 DEVICE="eth0"
 ONBOOT="yes"
 IPV6INIT="no"
